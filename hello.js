@@ -3,7 +3,7 @@ var page = require('webpage').create();
 phantom.addCookie({
   'name'     : 'csrftoken',   /* required property */
   'value'    : '1LWKuMlbIRIdLK1MPCMHI2zk6ou4koOL',  /* required property */
-  'domain'   : 'localhost',
+  'domain'   : 'localhost', /* This appears to be very necessary */
   'path'     : '/',                /* required property */
 });
 
