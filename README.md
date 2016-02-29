@@ -9,9 +9,9 @@ https://github.com/tjphopkins/conversocial/tree/render-print
 
 Without the cookies, django middleware complains and throws a 401 Unauthorized when the app makes a request for widget data. 
 
-*Gotchas*\n
-page properties e.g. onCallback, onConsoleMessage etc. must be set before opening the page, obviously.
-the npm-phantom module is rubbish
+### Gotchas
+* page properties e.g. onCallback, onConsoleMessage etc. must be set before opening the page, obviously.
+* the npm-phantom module is rubbish
 
 
 
